@@ -95,7 +95,7 @@ h2{
     color: #FF6C59;
 }
 
-.card{
+.section-two .card{
     width: 30%;
     display: inline-block;
     padding: 15px 15px;
@@ -103,26 +103,26 @@ h2{
     transition: all .3s ease;
 }
 
-.card:hover{
+.section-two .card:hover{
     box-shadow: 0px 1px 25px 3px #ee2323;
 }
 
-.card img{
+.section-two .card img{
     width: 40%;
     height: 30vh;
 }
 
 
-.card:nth-child(1){
+.section-two .card:nth-child(1){
     background: #dff9fb;
 }
 
-.card:nth-child(2){
+.section-two .card:nth-child(2){
     background: #F8C291;
     margin: 0 50px;
 }
 
-.card:nth-child(3){
+.section-two .card:nth-child(3){
     background: #F8EFBA;
 }
 
