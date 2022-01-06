@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Lobster&family=Poppins:wght@400;600&family=Quicksand&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFEFEF;
+}
+
+p{
+    font-size: 19px;
+    padding: 13px 0px;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h1 span{
+    color: #FF6C59;
+}
+
+h2{
+    margin: 5px 0;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.container{
+    width: 1152px;
+    margin: 80px 100px;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+
+.section-one h1::before{
+    content: "";
+    height: 88px;
+    width: 5px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+    background: #FF7B5A;
+}
+
+
+.section-one .right img{
+    width: 60%;
+    float: right;
+}
+
+.btn{
+    background: #FF6C59;
+    padding: 10px 15px;
+    border: 2px solid #FF6C59;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #fff;
+    border: 2px solid #FF6C59;
+    color: #FF6C59;
+    box-shadow: 0px 1px 10px 3px #ee2323;
+}
+
+.section-two h1{
+    text-align: center;
+    font-size: 3.7rem;
+    font-weight: 600;
+}
+
+.section-two h1 span{
+    color: #FF6C59;
+}
+
+.card{
+    width: 30%;
+    display: inline-block;
+    padding: 15px 15px;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+.card:hover{
+    box-shadow: 0px 1px 25px 3px #ee2323;
+}
+
+.card img{
+    width: 40%;
+    height: 30vh;
+}
+
+
+.card:nth-child(1){
+    background: #dff9fb;
+}
+
+.card:nth-child(2){
+    background: #F8C291;
+    margin: 0 50px;
+}
+
+.card:nth-child(3){
+    background: #F8EFBA;
+}
+
+
+.section-three{
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: 2% 20%;
+    background-size: 180px;
+    padding-top: 50px;
+}
+
+.section-three .left img{
+    width: 80%;
+}
+
+.section-four{
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: 65% 20%;
+    background-size: 180px;
+    padding-top: 80px;
+}
+
+
+.section-four .right img{
+    width: 80%;
+    float: right;
+}
+
+.section-five h1{
+    text-align: center;
+}
+
+.section-five .left img{
+    width: 80%;
+}
+
+
+.footer{
+    background: #161616;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer h1{
+    margin: 5px 0;
+    font-family: 'Lobster', cursive;
+}
