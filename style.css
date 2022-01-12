@@ -48,6 +48,32 @@ h2{
     justify-content: space-between;
 }
 
+.navbar-menu{
+    width: 1152px;
+    margin: 0px 100px;
+}
+
+.main{
+    width: 100%;
+    background: #161616;
+    padding: 20px 0px;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 15px;
+    font-size: 19px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu a:hover{
+    color: #FF6C59;
+    box-shadow: 0px 1px 10px 3px #ee2323;
+}
 
 .section-one h1::before{
     content: "";
